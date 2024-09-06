@@ -4,7 +4,7 @@ from datetime import datetime
 def create_markdown(image_url, title, content):
     # 현재 날짜를 사용하여 파일 이름 지정
     date_str = datetime.now().strftime("%Y-%m-%d")
-    filename = f"{date_str}-powerplant-event.md"
+    filename = f"gnfk0119.github.io/_posts/{date_str}-powerplant-event.md"  # _posts 경로에 파일 저장"
 
     # Markdown 파일 작성
     with open(filename, "w") as f:
