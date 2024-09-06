@@ -29,6 +29,6 @@ jobs:
       run: |
         git config --global user.email "gnfk0119@gmail.com"
         git config --global user.name "gnfk0119"
-        git add /home/runner/work/gnfk0119.github.io/_posts/*.md  # _posts 경로의 마크다운 파일 스테이징
+        git add /home/runner/work/gnfk0119.github.io/gnfk0119.github.io/_posts/*.md  # _posts 경로의 마크다운 파일 스테이징
         git commit -m "Auto-generated post from Python script"
         git push origin master  # master 브랜치로 푸시
