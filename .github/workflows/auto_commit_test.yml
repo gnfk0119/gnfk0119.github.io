@@ -8,7 +8,6 @@ permissions:
   contents: write
   actions: write
 
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -24,7 +23,7 @@ jobs:
 
     - name: Run Python script
       run: |
-        test.py  # 파이썬 스크립트 실행하여 Markdown 파일 생성
+        python test.py  # 파이썬 스크립트 실행하여 Markdown 파일 생성
 
     - name: Move file to _posts directory
       run: |
