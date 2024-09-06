@@ -1,7 +1,7 @@
-name: Auto-commit on Google Sheet update
+name: Auto-commit Markdown post
 
 on:
-  repository_dispatch:  # Google Apps Script에서 호출할 이벤트
+  repository_dispatch:  # Google Apps Script에서 트리거
     types: [google_sheet_update]
 
 jobs:
@@ -12,13 +12,19 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2  # 리포지토리 체크아웃
 
-    - name: Create or update markdown file
+    - name: Set up Python
+      uses: actions/setup-python@v2  # 파이썬 환경 설정
+      with:
+        python-version: '3.x'  # 파이썬 버전
+
+    - name: Run Python script
       run: |
-        echo "# ${GITHUB_EVENT_CLIENT_PAYLOAD.title}" > updated_content.md
-        echo "![Image](${GITHUB_EVENT_CLIENT_PAYLOAD.imageUrl})" >> updated_content.md
-        echo "${GITHUB_EVENT_CLIENT_PAYLOAD.details}" >> updated_content.md
+        python script.py  # 파이썬 스크립트 실행하여 _posts 디렉토리에 마크다운 파일 생성
+
+    - name: Commit changes to _posts
+      run: |
         git config --global user.email "you@example.com"
         git config --global user.name "Your GitHub Name"
-        git add .
-        git commit -m "Auto update from Google Sheet"
-        git push origin main
+        git add gnfk0119.github.io/_posts/*.md  # _posts 경로의 마크다운 파일 스테이징
+        git commit -m "Auto-generated post from Python script"
+        git push origin main  # main 브랜치로 푸시
