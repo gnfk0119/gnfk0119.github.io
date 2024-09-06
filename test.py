@@ -4,7 +4,10 @@ from datetime import datetime
 def create_markdown(image_url, title, content):
     # 현재 날짜를 사용하여 파일 이름 지정
     date_str = datetime.now().strftime("%Y-%m-%d")
-    filename = f"{date_str}-powerplant-event.md"
+    filename = f"gnfk0119.github.io/_posts/{date_str}-powerplant-event.md"  # _posts 경로에 파일 저장
+
+    # _posts 디렉토리가 없으면 생성
+    os.makedirs(os.path.dirname(filename), exist_ok=True)
 
     # Markdown 파일 작성
     with open(filename, "w") as f:
@@ -19,11 +22,11 @@ def create_markdown(image_url, title, content):
 
     print(f"Markdown file '{filename}' created.")
 
-# 입력 예시
+# 예시 데이터
 image_url = "https://www.snu.ac.kr/webdata/boardimages/kobodo/img_20240403_001.jpg"
 title = "파워플랜트 행사!"
-content = """잘돌아가는지 볼까? 야호. 잘돌아가는지 볼까? 야호. 잘돌아가는지 볼까? 야호. 잘돌아가는지 볼까? 야호. 잘돌아가는지 볼까? 야호.
-잘돌아가는지 볼까? 야호. 잘돌아가는지 볼까? 야호. 잘돌아가는지 볼까? 야호. 잘돌아가는지 볼까? 야호. 잘돌아가는지 볼까? 야호."""
+content = """잘돌아가는지 볼까? 야호. 잘돌아가는지 볼까? 야호. 잘돌아가는지 볼까? 야호.
+잘돌아가는지 볼까? 야호. 잘돌아가는지 볼까? 야호. 잘돌아가는지 볼까? 야호."""
 
 # 마크다운 파일 생성 함수 실행
 create_markdown(image_url, title, content)
