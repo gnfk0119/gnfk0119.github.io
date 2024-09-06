@@ -4,6 +4,10 @@ on:
   repository_dispatch:  # Google Apps Script에서 트리거
     types: [google_sheet_update]
 
+permissions:
+  contents: write
+  actions: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
