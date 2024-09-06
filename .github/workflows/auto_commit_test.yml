@@ -15,10 +15,10 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2  # 리포지토리 체크아웃
+      uses: actions/checkout@v4  # 리포지토리 체크아웃
 
     - name: Set up Python
-      uses: actions/setup-python@v2  # 파이썬 환경 설정
+      uses: actions/setup-python@v4  # 파이썬 환경 설정
       with:
         python-version: '3.x'  # 파이썬 버전 (3.x)
 
