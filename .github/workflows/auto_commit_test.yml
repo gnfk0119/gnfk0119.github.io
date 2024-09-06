@@ -31,4 +31,4 @@ jobs:
         git config --global user.name "gnfk0119"
         git add gnfk0119.github.io/_posts/*.md  # _posts 경로의 마크다운 파일 스테이징
         git commit -m "Auto-generated post from Python script"
-        git push origin main  # main 브랜치로 푸시
+        git push origin master  # master 브랜치로 푸시
