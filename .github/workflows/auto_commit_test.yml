@@ -4,9 +4,9 @@ on:
   repository_dispatch:  # Google Apps Script에서 트리거될 이벤트
     types: [google_sheet_update]
 
-permissions:
-  contents: write
-  actions: write
+# permissions:
+#   contents: write
+#   actions: write
 
 jobs:
   build:
@@ -19,20 +19,16 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4  # 파이썬 환경 설정
       with:
-        python-version: '3.x'  # 파이썬 버전 (3.x)
+        python-version: '3.x'  # 파이썬 버전
 
     - name: Run Python script
       run: |
-        python test.py  # 파이썬 스크립트 실행하여 Markdown 파일 생성
+        python test.py  # 파이썬 스크립트 실행하여 _posts 디렉토리에 마크다운 파일 생성
 
-    - name: Move file to _posts directory
-      run: |
-        mv *.md gnfk0119.github.io/_posts/  # 생성된 Markdown 파일을 _posts 경로로 이동
-
-    - name: Commit and push changes
+    - name: Commit changes to _posts
       run: |
         git config --global user.email "gnfk0119@gmail.com"
         git config --global user.name "gnfk0119"
-        git add gnfk0119.github.io/_posts/*.md
+        git add gnfk0119.github.io/_posts/*.md  # _posts 경로의 마크다운 파일 스테이징
         git commit -m "Auto-generated post from Python script"
-        git push origin main
+        git push origin main  # main 브랜치로 푸시
