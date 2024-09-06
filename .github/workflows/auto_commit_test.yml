@@ -1,0 +1,24 @@
+name: Auto-commit on Google Sheet update
+
+on:
+  repository_dispatch:  # Google Apps Script에서 호출할 이벤트
+    types: [google_sheet_update]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2  # 리포지토리 체크아웃
+
+    - name: Create or update markdown file
+      run: |
+        echo "# ${GITHUB_EVENT_CLIENT_PAYLOAD.title}" > updated_content.md
+        echo "![Image](${GITHUB_EVENT_CLIENT_PAYLOAD.imageUrl})" >> updated_content.md
+        echo "${GITHUB_EVENT_CLIENT_PAYLOAD.details}" >> updated_content.md
+        git config --global user.email "you@example.com"
+        git config --global user.name "Your GitHub Name"
+        git add .
+        git commit -m "Auto update from Google Sheet"
+        git push origin main
