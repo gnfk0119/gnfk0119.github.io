@@ -26,10 +26,10 @@ typora-root-url: ../
 ---
 ---
 
-# 1. 공간 접근성
+# 공간 접근성
 <details>
-<summary>공간 접근성이 무엇인가요?</summary>
-<div markdown="1">
+<summary><span style="color:#BEBFC2">공간 접근성이 무엇인가요?</span></summary>
+<div markdown="1"><span style="color:#BEBFC2">
 이용자의 신체적, 정신적 특성을 고려하여 물리적 환경을 점검하고 필요한 시설과 안내를 제공하여, 이용자가 공간을 안전하고 편안하게 이용할 수 있도록 만드는 것을 의미합니다.
 </div>
 </details>
@@ -40,10 +40,10 @@ typora-root-url: ../
 
 ---
 
-# 2. 참여 접근성
+# 참여 접근성
 <details>
-<summary>참여 접근성이 무엇인가요?</summary>
-<div markdown="1">
+<summary><span style="color:#BEBFC2">참여 접근성이 무엇인가요?</span></summary>
+<div markdown="1"><span style="color:#BEBFC2">
 프로그램의 기획 단계에서부터 다양한 이용자에게 프로그램을 참여할 때, 필요한 접근성 요소를 준비하는 것을 의미합니다.
 </div>
 </details>
@@ -53,10 +53,10 @@ typora-root-url: ../
 
 ---
 
-# 3. 정보 접근성
+# 정보 접근성
 <details>
-<summary>정보 접근성이 무엇인가요?</summary>
-<div markdown="1">
+<summary><span style="color:#BEBFC2">정보 접근성이 무엇인가요?</span></summary>
+<div markdown="1"><span style="color:#BEBFC2">
 다양한 이용자에게 적합한 정보의 내용, 형식, 공지 기간, 전달 방법 등을 고려하여 보다 정보에 접근하기 쉽게 만드는 것을 의미합니다.
 </div>
 </details>
@@ -67,10 +67,10 @@ typora-root-url: ../
 
 ---
 
-# 4. 소통 접근성
+# 소통 접근성
 <details>
-<summary>소통 접근성이 무엇인가요?</summary>
-<div markdown="1">
+<summary><span style="color:#BEBFC2">소통 접근성이 무엇인가요?</span></summary>
+<div markdown="1"><span style="color:#BEBFC2">
 다양한 이용자와의 소통을 위해 필요한 것들을 사전에 갖추어 원활한 의사소통을 할 수 있도록 준비하는 것을 의미합니다
 </div>
 </details>
@@ -81,10 +81,10 @@ typora-root-url: ../
 
 ---
 
-# 5. 미학 접근성
+# 미학 접근성
 <details>
-<summary>미학 접근성이 무엇인가요?</summary>
-<div markdown="1">
+<summary><span style="color:#BEBFC2">미학 접근성이 무엇인가요?</span></summary>
+<div markdown="1"><span style="color:#BEBFC2">
 접근성이 기능적 역할 뿐만 아니라 아름다움과 접근성 사이의 균형을 찾아가며, 고유한 미적 요소를 가지는 것을 의미합니다. 
 </div>
 </details>
