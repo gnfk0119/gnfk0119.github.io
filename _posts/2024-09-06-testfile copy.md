@@ -14,7 +14,7 @@ header:
 
 sidebar:
   - title: "리빙 더 바디즈 Living the Bodies"
-    image: https://culture.snu.ac.kr/wp-content/uploads/2024/04/231201_%EB%A6%AC%EB%B9%99%EB%8D%94%EB%B0%94%EB%94%94%EC%A6%88_%EB%AA%A8%EC%85%98%ED%8F%AC%EC%8A%A4%ED%84%B0MotionPoster.mp4 # 포스터 이미지
+    image: /images/2024-09-06-livingthebodies/livingthebodies.png # 포스터 이미지
     image_alt: "image"
     text: "장소: 서울대학교<br>시간: 2024"
 
