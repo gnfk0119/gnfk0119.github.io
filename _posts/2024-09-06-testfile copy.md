@@ -4,17 +4,75 @@ title: "리빙 더 바디즈 Living the Bodies"
 excerpt: "This post should display a **header with a solid background color**, if the theme supports it."
 # categories: Portfolio
 # tags: [tag]
+
 header:
-  teaser: /images/2024-09-06-livingthebodies/parasite.jpg
+  teaser: ttps://culture.snu.ac.kr/wp-content/uploads/2024/04/231201_%EB%A6%AC%EB%B9%99%EB%8D%94%EB%B0%94%EB%94%94%EC%A6%88_%EB%AA%A8%EC%85%98%ED%8F%AC%EC%8A%A4%ED%84%B0MotionPoster.mp4 # 포스터 이미지
   # overlay_color: "#333"
-# author_profile: false
+  # actions:
+  #   - label: "자세히 보기"
+  #     url: "https://unsplash.com"
+
+sidebar:
+  - title: "리빙 더 바디즈 Living the Bodies"
+    image: https://culture.snu.ac.kr/wp-content/uploads/2024/04/231201_%EB%A6%AC%EB%B9%99%EB%8D%94%EB%B0%94%EB%94%94%EC%A6%88_%EB%AA%A8%EC%85%98%ED%8F%AC%EC%8A%A4%ED%84%B0MotionPoster.mp4 # 포스터 이미지
+    image_alt: "image"
+    text: "장소: 서울대학교<br>시간: 2024"
+
+  - title: "ICI 3.5/5"
+    text: "#이동경로<br>#공간안내<br>#이동경로<br>#공간안내<br>#이동경로<br>#공간안내"
+    
+author_profile: false
 typora-root-url: ../
 ---
 
-![Image](https://www.snu.ac.kr/webdata/boardimages/kobodo/img_20240403_001.jpg)
+[자세히 보기](https://culture.snu.ac.kr/event/livingthebodies/){: .btn .btn--primary }
 
-# 파워플랜트 행사!
 
-잘돌아가는지 볼까? 야호. 잘돌아가는지 볼까? 야호. 잘돌아가는지 볼까? 야호. 잘돌아가는지 볼까? 야호. 잘돌아가는지 볼까? 야호.
-잘돌아가는지 볼까? 야호. 잘돌아가는지 볼까? 야호. 잘돌아가는지 볼까? 야호. 잘돌아가는지 볼까? 야호. 잘돌아가는지 볼까? 야호.
+---
+
+#### 1. 물리적 공간 접근성
+
+##### ICI 5/5
+
+#이동경로 #공간안내 #장애인전용주차 #장애인화장실 #휴식공간 #접근시설 #비상대피 #안전 #안내견환영
+
+---
+
+#### 2. 물리적 공간 접근성
+
+##### ICI 5/5
+
+#이동경로 #공간안내 #장애인전용주차 #장애인화장실 #휴식공간 #접근시설 #비상대피 #안전 #안내견환영
+
+---
+
+#### 3. 물리적 공간 접근성
+
+##### ICI 5/5
+
+#이동경로 #공간안내 #장애인전용주차 #장애인화장실 #휴식공간 #접근시설 #비상대피 #안전 #안내견환영
+
+---
+
+#### 4. 물리적 공간 접근성
+
+##### ICI 5/5
+
+#이동경로 #공간안내 #장애인전용주차 #장애인화장실 #휴식공간 #접근시설 #비상대피 #안전 #안내견환영
+
+---
+
+#### 5. 물리적 공간 접근성
+
+##### ICI 5/5
+
+#이동경로 #공간안내 #장애인전용주차 #장애인화장실 #휴식공간 #접근시설 #비상대피 #안전 #안내견환영
+
+---
+
+
+
+
+
+
 
