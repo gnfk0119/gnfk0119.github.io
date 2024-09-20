@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "리빙 더 바디즈 Living the Bodies"
-excerpt: "This post should display a **header with a solid background color**, if the theme supports it."
+title: "[3.5/5] 리빙 더 바디즈 Living the Bodies"
+excerpt: "일시: 2023.12.01(금) - 12.03(일)"
 # categories: Portfolio
 # tags: [tag]
 
