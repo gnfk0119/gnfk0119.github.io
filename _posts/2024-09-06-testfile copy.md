@@ -6,7 +6,7 @@ excerpt: "This post should display a **header with a solid background color**, i
 # tags: [tag]
 
 header:
-  teaser: ttps://culture.snu.ac.kr/wp-content/uploads/2024/04/231201_%EB%A6%AC%EB%B9%99%EB%8D%94%EB%B0%94%EB%94%94%EC%A6%88_%EB%AA%A8%EC%85%98%ED%8F%AC%EC%8A%A4%ED%84%B0MotionPoster.mp4 # 포스터 이미지
+  teaser: /images/2024-09-06-livingthebodies/livingthebodies.png # 포스터 이미지
   # overlay_color: "#333"
   # actions:
   #   - label: "자세히 보기"
