@@ -19,7 +19,7 @@ sidebar:
     text: "주관: 서울대학교 문화예술원<br>장소: 서울대학교 68동 제1 파워플랜트<br>일시: 2023.12.01(금) - 12.03(일)"
 
   - title: "ICI 3.5/5"
-    text: "#이동경로<br>#공간안내<br>#이동경로<br>#공간안내<br>#이동경로<br>#공간안내"
+    text: "장애 접근성을 적절히 지원함"
     
 author_profile: false
 typora-root-url: ../
