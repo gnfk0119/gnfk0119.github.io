@@ -4,8 +4,8 @@ main:
   #   url: /portfolio/
   # - title: "Search"
   #   url: /search/
-  - title: "Admission"
-    url: https://docs.google.com/forms/d/e/1FAIpQLSf2l58le8kfkVWnUknbTAea8VwJb5IecL3zLtYMYWbixY1uqQ/viewform?usp=sf_link
+  - title: "행사 등록하기"
+    url: https://docs.google.com/forms/d/1dtDnW45b-VUDNiD7pF7TLWLCsaj0eJ7JOMcC4XpnC78/viewform?edit_requested=true
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
