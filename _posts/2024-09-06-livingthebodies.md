@@ -6,7 +6,7 @@ excerpt: "일시: 2023.12.01(금) - 12.03(일)"
 # tags: [tag]
 
 header:
-  teaser: /images/2024-09-06-livingthebodies/livingthebodies.png # 포스터 이미지
+  teaser: /images/2024-09-06-livingthebodies/D.png # 포스터 이미지
   # overlay_color: "#333"
   # actions:
   #   - label: "자세히 보기"
