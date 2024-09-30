@@ -28,6 +28,7 @@
 
   a[rel="permalink"] {
     position: static;
+    text-decoration-line: none; //홈화면 텍스트 밑줄 삭제
   }
 }
 
@@ -44,7 +45,7 @@
 }
 
 .archive__item-title {
-  margin-bottom: 0.25em;
+  margin-bottom: 0em;
   font-family: $sans-serif-narrow;
   line-height: initial;
   overflow: hidden;
@@ -60,6 +61,22 @@
     opacity: 0.5;
   }
 }
+
+/* 커스텀 스타일*/
+.archive-title {
+  font-size: $type-size-4;
+  font-weight: bold;
+}
+
+.archive-subtext {
+  font-size: $type-size-7;
+  font-weight: 350;
+}
+
+.single__item {
+  margin-bottom: 0.8em;
+}
+
 
 /* remove border*/
 .page__content {
