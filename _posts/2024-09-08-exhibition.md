@@ -1,32 +1,20 @@
 ---
 layout: single
+permalink: /00002/
 title: "전시 유물론"
-subtext: "11월2일 역사적 유물과 현대 기술의 융합을 통해 새로운 시각을 제시하는 전시"
+subtext: "10.20 역사적 유물과 현대 기술의 융합을 통한 새로운 시각"
 excerpt: false
-toc: true
-toc_sticky: true
-toc_label:  바로가기
-# categories: Portfolio
-tags: [tag]
 
-# header:
-  # teaser: /images/2024-09-06-livingthebodies/livingthebodies.png # 포스터 이미지
-  # overlay_color: "#333"
-  # actions:
-  #   - label: "자세히 보기"
-  #     url: "https://unsplash.com"
+# toc: true
+# toc_sticky: true
+# toc_label:  바로가기
 
 sidebar: false
-#   - title: "리빙 더 바디즈 Living the Bodies"
-#     image: /images/2024-09-06-livingthebodies/livingthebodies.png # 포스터 이미지
-#     image_alt: "image"
-#     text: "주관: 서울대학교 문화예술원<br>장소: 서울대학교 68동 제1 파워플랜트<br>일시: 2023.12.01(금) - 12.03(일)"
-
-#   - title: "ICI 3.5점/5"
-#     text: "장애 접근성을 적절히 지원함"
-    
 author_profile: false
 typora-root-url: ../
+
+# categories: Portfolio
+tags: [tag]
 ---
 
 # 전시 유물론

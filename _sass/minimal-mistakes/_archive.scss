@@ -64,26 +64,91 @@
 
 /* 커스텀 스타일*/
 
-.archive-title {
-  font-size: 28px;
-  font-weight: bold;
+.archive-title,
+.archive-title0,
+.archive-title1,
+.archive-title2,
+.archive-title3,
+.archive-title4,
+.archive-title5 {
+  font-size: 32px;
+  font-weight: 700;
   max-width: 100%;
   word-break: keep-all;
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  padding-bottom: 4px;
+  padding-bottom: 0px;
+  line-height: 120%;
+}ㄴ
+
+.archive-subtext,
+.archive-subtext0,
+.archive-subtext1,
+.archive-subtext2,
+.archive-subtext3,
+.archive-subtext4,
+.archive-subtext5 {
+  font-size: 14px;
+  font-weight: 400;
+  max-width: 100%;
+  word-break: keep-all;
+  display: inline-flex;
+  align-items: center;
+  padding-bottom: 1px;
+  line-height: 140%;
 }
 
-.archive-subtext {
-  font-size: 14px;
-  font-weight: 350;
-  max-width: 100%;
-  word-break: keep-all;
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  padding-bottom: 16px;
+.archive-title0,
+.archive-title0:visited,
+.archive-title0:hover,
+.archive-subtext0,
+.archive-subtext0:visited,
+.archive-subtext0:hover {
+  color: #3ABD82 !important;
+}
+
+.archive-title1,
+.archive-title1:visited,
+.archive-title1:hover,
+.archive-subtext1,
+.archive-subtext1:visited,
+.archive-subtext1:hover {
+  color: #2B84AA !important;
+}
+.archive-title2,
+.archive-title2:visited,
+.archive-title2:hover,
+.archive-subtext2,
+.archive-subtext2:visited,
+.archive-subtext2:hover {
+  color: #F24F1B !important;
+}
+
+.archive-title3,
+.archive-title3:visited,
+.archive-title3:hover,
+.archive-subtext3,
+.archive-subtext3:visited,
+.archive-subtext3:hover{
+  color: #C5A103 !important;
+}
+
+.archive-title4,
+.archive-title4:visited,
+.archive-title4:hover,
+.archive-subtext4,
+.archive-subtext4:visited,
+.archive-subtext4:hover{
+  color: #00B4FF !important;
+}
+
+.archive-title5,
+.archive-title5:visited,
+.archive-title5:hover,
+.archive-subtext5,
+.archive-subtext5:visited,
+.archive-subtext5:hover{
+  color: #A20EAF !important;
 }
 
 

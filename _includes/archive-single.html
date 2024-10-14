@@ -16,19 +16,50 @@
 
 <div class="{{ include.type | default: 'list' }}__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"{% if post.locale %} lang="{{ post.locale }}"{% endif %}>
+
+    <!-- include.type이 grid이고, teaser가 존재할 때  -->
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src="{{ teaser | relative_url }}" alt="">
       </div>
+
+
     {% endif %}
     <div class="archive__item-title no_toc" itemprop="headline">
+
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+
+      
       {% else %}
-       <a href="{{ post.url | relative_url }}" rel="permalink">
-          <span class="archive-title">{{ title }}</span><br>
-          <span class="archive-subtext">{{ subtext }}</span>
-       </a>
+        {% assign last_value = post.url | split: '/' | last | remove: '/' | trim %}
+        {% assign numeric_value = last_value | plus: 0 %}
+        {% assign mod_result = numeric_value | modulo: 6 %}
+
+          <a href="{{ post.url | relative_url }}" rel="permalink">
+            {% if mod_result == 0 %}
+              <span class="archive-title0">{{ title }}</span><br>
+              <span class="archive-subtext0">{{ subtext }}</span>
+            {% elsif mod_result == 1 %}
+              <span class="archive-title1">{{ title }}</span><br>
+              <span class="archive-subtext1">{{ subtext }}</span>
+            {% elsif mod_result == 2 %}
+              <span class="archive-title2">{{ title }}</span><br>
+              <span class="archive-subtext2">{{ subtext }}</span>
+            {% elsif mod_result == 3 %}
+              <span class="archive-title3">{{ title }}</span><br>
+              <span class="archive-subtext3">{{ subtext }}</span>
+            {% elsif mod_result == 4 %}
+              <span class="archive-title4">{{ title }}</span><br>
+              <span class="archive-subtext4">{{ subtext }}</span>
+            {% elsif mod_result == 5 %}
+              <span class="archive-title5">{{ title }}</span><br>
+              <span class="archive-subtext5">{{ subtext }}</span>
+            {% else %}
+              <span class="archive-title">{{ title }}</span><br>
+              <span class="archive-subtext">{{ subtext }}</span>
+            {% endif %}
+          </a>
         <!-- <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a> // 원본 -->
       {% endif %}
       </div>
