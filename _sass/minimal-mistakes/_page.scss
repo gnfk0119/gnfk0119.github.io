@@ -610,7 +610,6 @@ body {
     margin: 0;
   }
 
-
   .accessibility {
     margin-bottom: 24px;
   }
@@ -624,4 +623,23 @@ body {
   .accessibility-details {
     font-weight: 200; /* light */
     font-size: 16px;
+  }
+
+  .about-notice-box {
+    margin: 0px 0 32px 0;
+    padding: 20px 16px 20px 16px;
+    border-radius: 8px;
+    background-color: #EBF5F8;
+  }
+
+  .about-notice-box h3 {
+    font-size: 24px;
+    font-weight: 600; /* bold */
+    margin-bottom: 16px;
+  }
+  
+  .about-notice-box p {
+    font-size: 16px;
+    font-weight: 200; /* regular */
+    margin: 0;
   }
