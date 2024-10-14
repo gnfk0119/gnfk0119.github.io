@@ -129,7 +129,7 @@ body {
   p,
   li,
   dl {
-    font-size: 1em;
+    font-size: 16px;
   }
 
   /* paragraph indents */
@@ -579,3 +579,49 @@ body {
     }
   }
 }
+
+
+/*
+   custom style
+   ========================================================================== */
+
+   .accessibility-notice-box {
+    margin: 16px 0 32px 0;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #F2F3F3;
+  }
+  
+  .accessibility-notice-box h3 {
+    font-size: 16px;
+    font-weight: 500; /* semibold */
+    margin-bottom: 12px;
+  }
+  
+  .accessibility-notice-box h4 {
+    font-size: 20px;
+    font-weight: 600; /* bold */
+    margin-bottom: 8px;
+  }
+  
+  .accessibility-notice-box p {
+    font-size: 16px;
+    font-weight: 300; /* regular */
+    margin: 0;
+  }
+
+
+  .accessibility {
+    margin-bottom: 24px;
+  }
+  
+  .accessibility-title {
+    font-weight: 600; /* bold */
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .accessibility-details {
+    font-weight: 200; /* light */
+    font-size: 16px;
+  }
