@@ -48,14 +48,17 @@
   display: flex;
   -ms-flex-item-align: center;
   align-self: center;
-  font-size: 20px;
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 4px;
   font-weight: bold;
   // z-index: 20;
 }
 
 .site-subtitle {
   display: block;
-  font-size: 20px;
+  font-size: 16px;
+  line-height: 20px;
   font-weight: 600;
 }
 

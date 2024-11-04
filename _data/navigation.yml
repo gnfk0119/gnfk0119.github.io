@@ -1,9 +1,9 @@
 # main links
 main:
-  - title: "검색"
+  - title: "검색하기"
     url: /search/
-  - title: "접근성 알아보기"
-    url: /about/
+  # - title: "접근성 알아보기"
+  #   url: /about/
   # - title: "행사 등록하기"
   #   url: https://docs.google.com/forms/d/1dtDnW45b-VUDNiD7pF7TLWLCsaj0eJ7JOMcC4XpnC78/viewform?edit_requested=true
   # - title: "Sample Posts"
