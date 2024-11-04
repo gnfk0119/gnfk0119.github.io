@@ -3,8 +3,6 @@ layout: archive
 ---
 
 {{ content }}
-<!-- 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Current" }}</h3> -->
 
 {% if paginator %}
   {% assign posts = paginator.posts %}
@@ -12,10 +10,23 @@ layout: archive
   {% assign posts = site.posts %}
 {% endif %}
 
+<!-- 추가된 영역 -->
+<div class="custom2">Current</div>
+<!-- 추가된 영역 -->
+
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
   {% for post in posts %}
     {% include archive-single.html type=entries_layout %}
+  {% endfor %}
+</div>
+
+<div class="custom2">Upcoming</div>
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% for post in posts %}
+    {% include archive-single-upcoming.html type=entries_layout %}
   {% endfor %}
 </div>
 

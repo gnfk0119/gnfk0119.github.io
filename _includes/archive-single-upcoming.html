@@ -35,7 +35,7 @@
         {% assign last_value = post.url | split: '/' | last | remove: '/' | trim %}
         {% assign numeric_value = last_value | plus: 0 %}
         {% assign mod_result = numeric_value | modulo: 6 %}
-        {% if mod_result >= 0 and mod_result <= 3 %}
+        {% if mod_result >= 4 and mod_result <= 5 %}
 
           <a href="{{ post.url | relative_url }}" rel="permalink">
             {% if mod_result == 0 %}
